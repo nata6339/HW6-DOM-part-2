@@ -1,0 +1,52 @@
+.change{
+    display: inline-block;
+    margin: 25px;
+    position: relative;
+    top: 15px;
+    right: -42%;
+}
+
+select{
+    width: 190px;
+}
+
+button{
+    width: 56px;
+    height: 27px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+input{
+    width: 125px;
+}
+.shape-square{
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shape-rectangle{
+    width: 200px;
+    height: 100px;
+    border: solid 2px black;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shape-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px black;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

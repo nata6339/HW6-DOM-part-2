@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
+<div class="shape">
+    <div id = "form"></div>
+</div>
+
+<div class="change">
+    <div class="change-shape">
+        <select id="shape-selector"  name="shape" size="1">
+            <option selected>Choose the shape</option>
+            <option typeof="click" value="square">square</option>
+            <option value="rectangle">rectangle</option>
+            <option value="circle">circle</option>
+        </select>
+    </div>
+
+    <form>
+        <p>Specify color:</p>
+            <input id="shape-color-selector" type="color" name="color">
+            <button id = "btn" type="button">OK</button>
+    </form>
+</div>
+
 
 </body>
 </html>
